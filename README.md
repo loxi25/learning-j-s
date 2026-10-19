@@ -1,15 +1,11 @@
-# learning-j-s
-
-# las 10 reglas numerales de la sintaxis de java scrip
-
-- las intrucciones terminan con punto y coma (;)
-- los numeros decimales usan el puntp(.)
-- los literales del texto van entre comillas dobles ("...") o simples ('')
-- se usa let const o var para declarar variables
-- el operador de asignacion es el signo igual (=)
-- operadores aritmeticos +,-,*,/,%
-- las expresiones pueden combinar valores y variables
-- comenta de una linea (//) y multilines (*/.../*)
--  los identificadores empiezan por letra , guion bajo (_) o dolar ($)
-- case sensitive : java-script
-gistingue entre mayusculas (nombre y Nombre son diferentes)
+# Las 10 reglas fundamentales de la sintaxis de Javascript
+1. Las instrucciones terminan con punto y coma (;)
+2. Los números decimales utilizan el punto (.)
+3. Los literales de texto van entre comillas dobles ("...") o simples ('...')
+4. Se usa let, const o var para declarar variables.
+5. El operador de asignación es el signo igual (=)
+6. Operadores aritméticos: +,-,*,/,%
+7. Las expresiones pueden combinar variables y valores
+8. Comentarios de una linea (//) y multilines (/*...*/)
+9. Los identificadores empiezan por letra, guion bajo (_) o dolar ($)
+10. Case-sensitive: Javascript distingue entre mayúsculas y minúsculas (nombre y Nombre son diferentes)
