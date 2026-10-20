@@ -9,3 +9,12 @@
 8. Comentarios de una linea (//) y multilines (/*...*/)
 9. Los identificadores empiezan por letra, guion bajo (_) o dolar ($)
 10. Case-sensitive: Javascript distingue entre mayúsculas y minúsculas (nombre y Nombre son diferentes)
+
+
+
+
+1. Solicitar un dato por pantalla en una ventana emergente y mostarlos como contenido de un párrafo `<p>`.
+2. Seleccionar de una lista plegable un color y mostrarlos por la consola.
+3. Solicitar en un `<input>` un texto y mostrarlo en una capa `<div>` pulsando sobre un botón.
+4. Cargar una lista plegable con nombre de imágenes que tienes guardadas en disco y cuando se seleccione una de la lista, visualizar esa imagen.
+5. Crear una página con un texto y dos listas plegables, una indica que el texto se ponga en negrita o no, y la otra si el texto se pone en cursiva o no

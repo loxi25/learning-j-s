@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+    <h1>Seleccionar una imagen</h1>
+
+    <select id="nombreImagen" onchange="cambiar()">
+        <option value="img/imagen1.jpg">Imagen 1</option>
+        <option value="img/imagen2.jpg">Imagen 2</option>
+        <option value="img/imagen3.jpg">Imagen 3</option>
+    </select>
+
+    <br><br>
+
+    <img id="imagen" src="img/imagen1.jpg"
+         alt="Imagen seleccionada" width="300">
+
+    <script>
+        function cambiar() {
+            nombreImagen = document.getElementById("nombreImagen").value;
+
+            document.getElementById("imagen").src = nombreImagen;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+
+    <h1>Modificar un texto</h1>
+
+    <p id="texto">Este es el texto que vamos a modificar.</p>
+
+    <label>Negrita:</label>
+
+    <select id="negrita">
+        <option value="normal">No</option>
+        <option value="bold">Sí</option>
+    </select>
+
+    <br><br>
+
+    <label>Cursiva:</label>
+
+    <select id="cursiva">
+        <option value="normal">No</option>
+        <option value="italic">Sí</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="modificarTexto()">
+        Aplicar cambios
+    </button>
+
+    <script>
+        function modificarTexto() {
+            negrita = document.getElementById("negrita").value;
+            cursiva = document.getElementById("cursiva").value;
+
+            document.getElementById("texto").style.fontWeight = negrita;
+            document.getElementById("texto").style.fontStyle = cursiva;
+        }
+    </script>
+
+</body>
+</html>
